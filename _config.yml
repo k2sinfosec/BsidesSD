@@ -1,14 +1,14 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
-baseurl:           "/startbootstrap-clean-blog-jekyll"
-url:               "http://blackrockdigital.github.io"
+title:             HomeBrewedSec Blog
+email:             huddon@homebrewedsec.com
+description:       Brew Beer. Secure Things.
+author:            HomeBrewedSec
+baseurl:           ""
+url:               "http://HomeBrewedSec.com"
 
 # Social Profiles
-twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+twitter_username:  HomeBrewedSec
+github_username:   
+facebook_username: 
 
 # Build settings
 markdown:          kramdown
