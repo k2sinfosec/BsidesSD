@@ -3,7 +3,7 @@ email:             huddon@homebrewedsec.com
 description:       Brew Beer. Secure Things.
 author:            HomeBrewedSec
 baseurl:           ""
-url:               "https://HomeBrewedSec.com"
+url:               "http://HomeBrewedSec.com"
 
 # Social Profiles
 twitter_username:  HomeBrewedSec
