@@ -5,6 +5,7 @@ gemspec
 
 gem "jekyll", "~> 3.6.0"
 gem 'jekyll-seo-tag'
+gem 'jekyll-twitter-plugin'
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
