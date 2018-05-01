@@ -11,6 +11,10 @@ twitter_username:  HomeBrewedSec
 github_username:   
 facebook_username: 
 
+#RSS
+feed:
+  path: feed.xml
+
 # Build settings
 markdown:          kramdown
 paginate:          5
