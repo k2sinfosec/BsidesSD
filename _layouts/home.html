@@ -39,7 +39,7 @@ layout: default
 	        <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 25 }}</h3>
 			{% assign truncatedContent = '' %}
             {% assign paragraphs = post.content | split:'</p>' %}
-            {% for paragraph in paragraphs limit:N %}
+            {% for paragraph in paragraphs limit:1 %}
               {{ truncatedContent | append: paragraph }}
               {{ truncatedContent | append: '</p>' }}
             {% endfor %}
