@@ -41,7 +41,7 @@ layout: default
                 <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
               {% endif %}
             </a>
-			<img src={{ post.background }} alt="{{ post.title }}" style="width:100%; height:auto; clip:25% 0 25% 0" />
+			<img src={{ post.background | prepend: site.baseurl | replace: '//', '/'  }} alt="{{ post.title }}" style="width:100%; height:auto; clip:25% 0px 25% 0px;" />
             <p class="post-meta">Posted  on {{ post.date | date: '%B %d, %Y' }}</p>
           </article>
 
