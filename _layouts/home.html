@@ -32,7 +32,7 @@ layout: default
         <!-- Home Post List -->
         {% for post in site.posts limit : 5 %}
 
-          <article class="post-preview">
+          <article class="post-preview" style="background-image:url({{ post.background }})">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
               <h2 class="post-title">{{ post.title }}</h2>
               {% if post.subtitle %}
@@ -41,7 +41,6 @@ layout: default
                 <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
               {% endif %}
             </a>
-			<img src={{ post.background }} alt="{{ post.title }}" style="width:100%; height:auto;" />
             <p class="post-meta">Posted  on {{ post.date | date: '%B %d, %Y' }}</p>
           </article>
 
