@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Threat Modeling at Home"
-#background: '/img/posts/securehome.jpg'
+background: '/img/posts/securehome.jpg'
 ---
 
 <p>I will be the first to admit that I do not value my own privacy as much as I should. I have not deleted my Facebook, not restricted advertiser sharing of my information, and my house is full of untested IoT devices. There’s no evidence for this, but I’d suspect I’m pretty alone in this attitude within the InfoSec community.</p>
