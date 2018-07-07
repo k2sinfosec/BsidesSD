@@ -18,21 +18,13 @@
 
   <link rel="stylesheet" href="{{"/assets/main.css" | relative_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117935143-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-117935143-1');
-</script>
   
   {% feed_meta %}
   
   <!-- Twitter cards -->
-<meta name="twitter:site"    content="@HomeBrewedSec">
-<meta name="twitter:creator" content="@HomeBrewedSec">
+<meta name="twitter:site"    content="@BSidesSD">
+<meta name="twitter:creator" content="@BSidesSD">
 <meta name="twitter:title"   content="{{ page.title }}">
 
 {% if page.summary %}
