@@ -1,13 +1,13 @@
-title:             HomeBrewedSec Blog
-email:             huddon@homebrewedsec.com
-description:       Brew Beer. Secure Things.
-author:            HomeBrewedSec
-baseurl:           ""
-url:               "http://HomeBrewedSec.com"
+title:             BSides San Diego
+email:             
+description:       
+author:            BsidesSD
+baseurl:           "/BsidesSD"
+url:               "https://k2sinfosec.github.io"
 permalink:         pretty
 
 # Social Profiles
-twitter_username:  HomeBrewedSec
+twitter_username:  BsidesSD
 github_username:   
 facebook_username: 
 
